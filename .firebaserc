@@ -1,5 +1,13 @@
 {
   "projects": {
     "default": "bloomify-baef8"
-  }
+  },
+  "targets": {
+    "bloomify-baef8": {
+      "hosting": {
+        "leoapps": ["leoapps"]
+      }
+    }
+  },
+  "etags": {}
 }

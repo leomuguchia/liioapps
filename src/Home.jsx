@@ -7,6 +7,11 @@ export default function Home() {
       <ul>
         <li>
           <a href="/privacy/color-smash">Color Smash</a>
+          <a href="/privacy/color-smash"> - Color Smash Privacy Policy</a>
+        </li>
+        <li>
+          <a href="/privacy/numero">Numero</a>
+          <a href="/privacy/numero"> - Numero Privacy Policy</a>
         </li>
       </ul>
     </div>
