@@ -13,6 +13,10 @@ export default function Home() {
           <a href="/privacy/numero">Numero</a>
           <a href="/privacy/numero"> - Numero Privacy Policy</a>
         </li>
+        <li>
+          <a href="/privacy/phonefit">PhoneFit</a>
+          <a href="/privacy/phonefit"> - PhoneFit Privacy Policy</a>
+        </li>
       </ul>
     </div>
   );
