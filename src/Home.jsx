@@ -17,6 +17,10 @@ export default function Home() {
           <a href="/privacy/phonefit">PhoneFit</a>
           <a href="/privacy/phonefit"> - PhoneFit Privacy Policy</a>
         </li>
+        <li>
+          <a href="/privacy/evomoji">Evomoji</a>
+          <a href="/privacy/evomoji"> - Evomoji Privacy Policy</a>
+        </li>
       </ul>
     </div>
   );
