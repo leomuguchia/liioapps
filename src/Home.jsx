@@ -29,6 +29,10 @@ export default function Home() {
           <a href="/privacy/niokolee">Niokolee</a>
           <a href="/privacy/niokolee"> - Niokolee Privacy Policy</a>
         </li>
+        <li>
+          <a href="/privacy/petals">Petals</a>
+          <a href="/privacy/petals"> - Petals Privacy Policy</a>
+        </li>
       </ul>
     </div>
   );

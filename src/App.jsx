@@ -19,6 +19,7 @@ function App() {
         <Route path="/privacy/evomoji" element={<EvomojiPrivacy />} />
         <Route path="/privacy/green-light" element={<GreenLightRedLightPrivacy/>} />
         <Route path="/privacy/niokolee" element={<NiokoleePrivacy/>} />
+        <Route path="/privacy/petals" element={<NiokoleePrivacy/>} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
