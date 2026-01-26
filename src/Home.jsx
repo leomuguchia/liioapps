@@ -25,6 +25,10 @@ export default function Home() {
           <a href="/privacy/green-light">Green Light Red Light</a>
           <a href="/privacy/green-light"> - Green Light Red Light Privacy Policy</a>
         </li>
+        <li>
+          <a href="/privacy/niokolee">Niokolee</a>
+          <a href="/privacy/niokolee"> - Niokolee Privacy Policy</a>
+        </li>
       </ul>
     </div>
   );

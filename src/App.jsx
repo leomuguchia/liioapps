@@ -6,6 +6,7 @@ import NumeroPrivacy from "./policies/numero";
 import PhoneFitPrivacy from "./policies/phonefit";
 import EvomojiPrivacy from "./policies/evomoji";
 import GreenLightRedLightPrivacy from "./policies/greenLight";
+import NiokoleePrivacy from "./policies/niokolee";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/privacy/phonefit" element={<PhoneFitPrivacy />} />
         <Route path="/privacy/evomoji" element={<EvomojiPrivacy />} />
         <Route path="/privacy/green-light" element={<GreenLightRedLightPrivacy/>} />
+        <Route path="/privacy/niokolee" element={<NiokoleePrivacy/>} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
