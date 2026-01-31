@@ -33,6 +33,18 @@ export default function Home() {
           <a href="/privacy/petals">Petals</a>
           <a href="/privacy/petals"> - Petals Privacy Policy</a>
         </li>
+        <li>
+          <a href="/privacy/bitsort">BitSort</a>
+          <a href="/privacy/bitsort"> - BitSort Privacy Policy</a>
+        </li>
+        <li>
+          <a href="/privacy/squid-runner">Squid Runner</a>
+          <a href="/privacy/squid-runner"> - Squid Runner Privacy Policy</a>
+        </li>
+        <li>
+          <a href="/privacy/sumo">Sumo</a>
+          <a href="/privacy/sumo"> - Sumo Privacy Policy</a>
+        </li>
       </ul>
     </div>
   );

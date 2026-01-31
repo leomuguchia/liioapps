@@ -7,6 +7,9 @@ import PhoneFitPrivacy from "./policies/phonefit";
 import EvomojiPrivacy from "./policies/evomoji";
 import GreenLightRedLightPrivacy from "./policies/greenLight";
 import NiokoleePrivacy from "./policies/niokolee";
+import SumoPrivacy from "./policies/sumo";
+import BitSortPrivacy from "./policies/bitsort";
+import SquidRunnerPrivacy from "./policies/squid-runner";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Route path="/privacy/green-light" element={<GreenLightRedLightPrivacy/>} />
         <Route path="/privacy/niokolee" element={<NiokoleePrivacy/>} />
         <Route path="/privacy/petals" element={<NiokoleePrivacy/>} />
+        <Route path="/privacy/bitsort" element={<BitSortPrivacy/>} />
+        <Route path="/privacy/squid-runner" element={<SquidRunnerPrivacy/>} />
+        <Route path="/privacy/sumo" element={<SumoPrivacy />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
