@@ -10,6 +10,8 @@ import NiokoleePrivacy from "./policies/niokolee";
 import SumoPrivacy from "./policies/sumo";
 import BitSortPrivacy from "./policies/bitsort";
 import SquidRunnerPrivacy from "./policies/squid-runner";
+import TapstackPrivacy from "./policies/tapstack";
+import PrimePrivacy from "./policies/prime";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path="/privacy/bitsort" element={<BitSortPrivacy/>} />
         <Route path="/privacy/squid-runner" element={<SquidRunnerPrivacy/>} />
         <Route path="/privacy/sumo" element={<SumoPrivacy />} />
+        <Route path="/privacy/tapstack" element={<TapstackPrivacy />} />
+        <Route path="/privacy/prime" element={<PrimePrivacy />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
