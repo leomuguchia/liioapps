@@ -12,6 +12,8 @@ import BitSortPrivacy from "./policies/bitsort";
 import SquidRunnerPrivacy from "./policies/squid-runner";
 import TapstackPrivacy from "./policies/tapstack";
 import PrimePrivacy from "./policies/prime";
+import ChainmojiPrivacy from "./policies/chainmoji";
+import QuicklexPrivacy from "./policies/quicklex";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <Route path="/privacy/sumo" element={<SumoPrivacy />} />
         <Route path="/privacy/tapstack" element={<TapstackPrivacy />} />
         <Route path="/privacy/prime" element={<PrimePrivacy />} />
+        <Route path="/privacy/chainmoji" element={<ChainmojiPrivacy />} />
+        <Route path="/privacy/quicklex" element={<QuicklexPrivacy />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>

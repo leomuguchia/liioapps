@@ -6,6 +6,10 @@ export default function Home() {
 
       <ul>
         <li>
+          <a href="/privacy/quicklex">Quicklex: Word Hunt</a>
+          <a href="/privacy/quicklex"> - Quicklex: Word Hunt Privacy Policy</a>
+        </li>
+        <li>
           <a href="/privacy/prime">Prime: Math Reflex</a>
           <a href="/privacy/prime"> - Prime: Math Reflex Privacy Policy</a>
         </li>
@@ -42,6 +46,10 @@ export default function Home() {
           <a href="/privacy/evomoji"> - Evomoji Privacy Policy</a>
         </li>
         <li>
+          <a href="/privacy/chainmoji">Chainmoji</a>
+          <a href="/privacy/chainmoji"> - Chainmoji Privacy Policy</a>
+        </li>
+        <li>
           <a href="/privacy/green-light">Green Light Red Light</a>
           <a href="/privacy/green-light"> - Green Light Red Light Privacy Policy</a>
         </li>
@@ -52,8 +60,7 @@ export default function Home() {
         <li>
           <a href="/privacy/petals">Petals</a>
           <a href="/privacy/petals"> - Petals Privacy Policy</a>
-        </li>
-        
+        </li>     
       </ul>
     </div>
   );
