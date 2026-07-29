@@ -9,6 +9,14 @@ export default function Home() {
           <a href="/privacy/quicklex">Quicklex: Word Hunt</a>
           <a href="/privacy/quicklex"> - Quicklex: Word Hunt Privacy Policy</a>
         </li>
+         <li>
+          <a href="/privacy/omo">Omo</a>
+          <a href="/privacy/omo"> - Omo Privacy Policy</a>
+        </li>
+        <li>
+          <a href="/privacy/hue">Hue Smash</a>
+          <a href="/privacy/hue"> - Hue Smash Privacy Policy</a>
+        </li>
         <li>
           <a href="/privacy/prime">Prime: Math Reflex</a>
           <a href="/privacy/prime"> - Prime: Math Reflex Privacy Policy</a>

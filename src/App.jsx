@@ -14,6 +14,8 @@ import TapstackPrivacy from "./policies/tapstack";
 import PrimePrivacy from "./policies/prime";
 import ChainmojiPrivacy from "./policies/chainmoji";
 import QuicklexPrivacy from "./policies/quicklex";
+import OmoPrivacy from "./policies/omo";
+import HueSmashPrivacy from "./policies/hue";
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <Route path="/privacy/prime" element={<PrimePrivacy />} />
         <Route path="/privacy/chainmoji" element={<ChainmojiPrivacy />} />
         <Route path="/privacy/quicklex" element={<QuicklexPrivacy />} />
+        <Route path="/privacy/hue" element={<HueSmashPrivacy />} />
+        <Route path="/privacy/omo" element={<OmoPrivacy />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
